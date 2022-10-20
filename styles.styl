@@ -1,0 +1,209 @@
+// sink by AomAm from the Noun Project
+// Weight by viraj from the Noun Project
+
+@import "_deps"
+// @import "_code"
+
+yellow = #ffc600
+orange = #FF9D00
+purple = #2E0067
+pink = #FF3B65;
+blue = #193549
+grad = linear-gradient(30deg, #d2ff52 0%, #03fff3 100%)
+
+html {
+  box-sizing: border-box;
+  background: #193549;
+}
+
+body {
+  font-family: 'Kilimanjaro Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.slides > article.current
+  display flex
+  justify-content: center
+  align-items: center
+  align-items: center
+  // grid-auto-rows: 1fr
+
+// Mixin
+h1,h2,h3,h4,h5,h6
+  color pink
+  font-weight 200
+  color: transparent
+  -webkit-text-stroke: 2px pink
+  background: -webkit-linear-gradient(alpha(pink, 0.3), transparent)
+  background-clip: text
+  -webkit-background-clip: text
+  letter-spacing 2px;
+
+p, a, li
+  text-shadow 4px 3px 0 rgba(0,0,0,0.3)
+  margin 15px 0
+  text-align center
+  margin: 30px 5%
+
+p, li, small
+  color white
+  font-weight 100
+  font-size 50px
+  font-family: 'operator mono', 'Courier New', monospace;
+  line-height: 1.5
+
+.sub
+  transform skew(0, -4deg)
+  margin-top 10px
+  font-weight 200
+  color white !important
+  font-size 60px
+
+h2 + .sub
+  transform none
+
+small
+  font-size 25px
+
+h1
+  transform skew(0, -4deg) rotateY(20deg)
+  font-size 200px
+  line-height: 1
+  a
+    text-decoration none
+    font-size 20px
+    color black
+    padding-left 10px
+
+ul {
+  text-align: left;
+  margin-left: 100px;
+}
+
+h2
+  font-size 100px
+  line-height 1.2
+  margin 0
+  font-weight 900
+  &.title
+    font-size 70px
+  a
+    color yellow
+  &.skew
+    transform skew(0, -4deg)
+    display: inline-block
+
+h2 + img
+  margin-top 20px !important
+
+
+.large
+  font-size 200px
+
+.big
+  font-size 250px
+
+.medium
+  font-size 150px
+
+.huge
+  font-size 450px
+
+h3
+  font-size 70px
+  line-height 1.5
+
+h4
+  font-size 50px
+
+.halves
+  width 100%
+
+.half
+  width 50%
+
+
+img.wide, video.wide
+  width 100%
+  height auto
+  max-height none
+
+img.high
+  width auto
+  height 100%
+  max-height 1200px
+
+video.high
+  width: auto;
+  height: 100%;
+  min-width: 0;
+
+.hl
+  color yellow
+
+
+mark
+  background yellow
+  color black
+  color var(--black)
+  text-shadow none
+  padding 0 10px;
+  color: black;
+
+.emoji
+  font-size 116px
+  font-family serif
+
+
+// Smaller Screens
+body.square
+  .slides
+    & > article
+      w = 1920
+      h = 1080
+      width w px
+      height h px
+      margin-left (w/2) * -1px
+      margin-top (h/2) * -1px
+      border-radius 0
+      h2
+        font-size 110px
+      p, li, small
+        font-size 30px
+      .big
+        font-size 180px
+      .large
+        font-size 140px
+      .huge
+        font-size 220px
+
+.itm {
+              background: var(--yellow);
+              color: black;
+              padding: 15px;
+            }
+
+.alignment {
+                height: 700px;
+              width: 700px;
+              border:10px solid red;
+}
+
+pre
+  text-align left
+  padding 50px;
+  font-family: 'Operator Mono', 'Dank Mono', 'Courier New', Courier, monospace
+  font-weight: 300
+  font-size: 30px
+  line-height: 1.2
+
+iframe[src*="twitter"]
+  width: 550px;
+  height: 300px !important;
+  background: transparent;
+  transform: scale(2)
+  border 0

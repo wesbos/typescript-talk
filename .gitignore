@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+talk.js
+talk.md
+.cache/
+dist/
+.parcel-cache
