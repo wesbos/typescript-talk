@@ -1,5 +1,3 @@
-'use strict';
-
 let PERMANENT_URL_PREFIX = window.location.origin + window.location.pathname;
 // var PERMANENT_URL_PREFIX = window.location.href.split('/index.html')[0] + '/'
 
