@@ -1,5 +1,6 @@
 # TypeScript Talk
 
-coming soon.
-
 Use your arrow keys
+
+<https://wesbos.github.io/typescript-talk>
+

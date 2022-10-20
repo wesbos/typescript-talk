@@ -1,19 +1,6 @@
-/*
-  Google HTML5 slides template
-
-  Authors: Luke Mahé (code)
-           Marcin Wichary (code and design)
-
-           Dominic Mazzoni (browser compatibility)
-           Charles Chen (ChromeVox support)
-
-  URL: http://code.google.com/p/html5slides/
-*/
-
-// var PERMANENT_URL_PREFIX = 'http://localhost/demos/talks/snow/';
+'use strict';
 
 let PERMANENT_URL_PREFIX = window.location.origin + window.location.pathname;
-
 // var PERMANENT_URL_PREFIX = window.location.href.split('/index.html')[0] + '/'
 
 let SLIDE_CLASSES = ['far-past', 'past', 'current', 'next', 'far-next'];
