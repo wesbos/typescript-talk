@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "vite . --port 6969",
-    "build": "parcel build index.pug --out-dir docs --public-url /Syntax-Live/"
+    "build": "vite build --out-dir docs --base=/typescript-talk/"
   },
   "author": "",
   "license": "ISC",

@@ -1,4 +1,4 @@
-# TypeSCript Talk
+# TypeScript Talk
 
 coming soon.
 

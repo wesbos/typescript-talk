@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tasty TypeScript</title>
+  <meta charset="utf-8">
+  <script src="./slides.js"></script>
+  
+  <link rel="stylesheet" href="/typescript-talk/assets/index.14183f4c.css">
+</head>
+
+<body>
+  <section class="slides layout-regular template-default">
+
+    <article>
+      <h1>Tasty<br>TypeScript!</h1>
+      <p>It's pretty good!</p>
+    </article>
+
+    <article>
+      <h1><mark>Hi, I&apos;m<br>Wes Bos</mark></h1>
+      <p class="sub">Hamilton, On 🇨🇦</p>
+      <p class="sub">@wesbos Tweet, tok and gram</p>
+    </article>
+    <article class="first"><img src="https://syntax.fm/static/logo.png">
+      <p class="sub">Trice Weekly!</p>
+    </article>
+
+    <article>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
+        alt="">
+    </article>
+
+    <article>
+      <div class="build">
+        <h2>What is TypeScript?</h2>
+        <p>TypeScript is JavaScript with a Type system added on top.</p>
+
+        <p>It's not really a new language, it's just JavaScript plus some descriptions about what your data looks like.
+        </p>
+
+        <p>They really should have called it DescriptiveJavaScript!</p>
+      </div>
+    </article>
+
+    <article>
+      <h1>First, What are Types?</h1>
+    </article>
+
+    <article>
+      <p class="">Types describe the <span class="hl">type</span> of data in your application.</p>
+      <div class="build">
+        <p>Wes, you just used the word to describe the word.</p>
+      </div>
+    </article>
+
+    <article class="fill"><img src="/typescript-talk/assets/basic.181e8f94.png" class="wide"></article>
+
+    <article class="fill"><img src="/typescript-talk/assets/string-array.02f5a2a7.png" class="wide">
+      <p>An array of strings, not really that complex 😆</p>
+    </article>
+
+    <article><img src="/typescript-talk/assets/custom-type.c75bf2f8.png" alt="" class="high"></article>
+
+    <article><img src="/typescript-talk/assets/libs.4ed2441e.png" alt="" class="wide"></article>
+
+    <article><img src="/typescript-talk/assets/func.62f45f95.png" alt="" class="wide"></article>
+
+    <article><img src="/typescript-talk/assets/func.62f45f95.png" alt="" class="wide"></article>
+
+    <article><img src="/typescript-talk/assets/func2.8e1ca028.png" alt="" class="wide"></article>
+
+    <article>
+      <h1>But why?<br>What good is this extra <span class="hl">typing</span>?</h1>
+    </article>
+
+    <article>
+      <h1 class="">TypeScript<br><span class="hl">Benefits</span></h1>
+    </article>
+
+    <article>
+      <h4 class="hl">TypeScript has two main benefits:</h4>
+
+      <ol>
+        <li>code authoring experience<br>(more fun!)</li>
+        <li>More resiliant codebase(less bugs!)</li>
+      </ol>
+
+      <p>Let's break these down into some real world examples</p>
+    </article>
+
+    <article>
+      <p class="hl">Benefit #1</p>
+      <h1>Amazing <span class="hl">Autocomplete</span> & Developer <span class="hl">Productivity</span></h1>
+    </article>
+
+    <article><img src="/typescript-talk/assets/object-typing.0bcf817c.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/func-using.d9f84495.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/method.ba6b06cc.png" alt="" class="wide"></article>
+
+    <article>
+      <p class="hl">Benefit #2</p>
+      <h1>Error <span class="hl">Detection</span></h1>
+    </article>
+
+    <article><img src="/typescript-talk/assets/oops.65caeb06.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/missing.8db365ac.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/add-missing.0bccd216.png" alt="" class="wide"></article>
+
+
+    <article>
+      <p class="hl">Benefit #3</p>
+      <h1><span class="hl">Library</span><br>Typing</h1>
+    </article>
+    <article><img src="/typescript-talk/assets/npm.8b8e18d9.png" alt="" class="wide"></article>
+    <article>
+      <img src="/typescript-talk/assets/react.7afca67a.png" alt="" class="wide">
+      <p><code>npm i @types/react</code></p>
+    </article>
+
+    <article><img src="/typescript-talk/assets/date-fns.5e356eb6.png" alt="" class="wide"></article>
+
+    <article>
+      <p class="hl">Benefit #4</p>
+      <h1><span class="hl">Database</span><br>Typing</h1>
+    </article>
+
+    <article><img src="/typescript-talk/assets/prisma.f85f2310.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/prisma2.8ddf6ba1.png" alt="" class="wide"></article>
+
+    <article>
+      <p class="hl">Benefit #5</p>
+      <h1><span class="hl">Refactoring</span><br>is a breeze</h1>
+    </article>
+
+    <article>
+      <video class="wide" src="/typescript-talk/assets/export-to-constant.2022564a.mp4" muted autoplay loop></video>
+    </article>
+    <article><img src="/typescript-talk/assets/move-to-new.f9a8aba1.png" alt="" class="wide"></article>
+
+
+    <article>
+      <p class="hl">Benefit #6</p>
+      <h1>Edge case detection</h1>
+    </article>
+    <article><img src="/typescript-talk/assets/edge-case.79c7f07a.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/edge2.4065b197.png" alt="" class="wide"></article>
+
+    <article>
+      <h1>Some important Concepts in <span class="hl">TS</span></h1>
+    </article>
+
+    <article>
+      <h1>any <span class="hl">vs</span> unknown</h1>
+    </article>
+
+    <article><img src="/typescript-talk/assets/any1.efb43085.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/any2.c984942d.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/any3.14e67009.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/any4.e2bef8d9.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/any5.8fd9dee8.png" alt="" class="wide"></article>
+
+    <article>
+      <h1>Implicit <span class="hl">vs</span> Explict</h1>
+      <p>Kind of important to know</p>
+    </article>
+
+    <article>
+      <p>Lots of things in TypeScript don't need to be typed.</p>
+      <p class="hl">They can be implied.</p>
+    </article>
+
+    <article><img src="/typescript-talk/assets/im.ce3c5ed4.png" alt="" class="wide"></article>
+    <article><img src="/typescript-talk/assets/sammy.7264bef4.png" alt="" class="wide"></article>
+
+    <article>
+      <ul class="build">
+        <li><span class="hl">Implicit</span> is OK for private and local variables.</li>
+        <li>It's good to let things be <span class="hl">inferred</span> when possible</li>
+        <li><span class="hl">Explicit</span> for function inputs and outputs</li>
+        <li><span class="hl">Explicit</span> for anything exported or public</li>
+      </ul>
+    </article>
+
+    <article>
+      <h1>Tooling</h1>
+    </article>
+
+    <article>
+      <h1><span class="hl">Type Checking</span><br>and<br><span class="hl">Compiling to JS</span></h1>
+    </article>
+
+    <article>
+      <h1>TSC</h1>
+      <p>Type Checks ✅</p>
+      <p>Compiles to JS ✅</p>
+    </article>
+
+    <article>
+      <h1>SWC</h1>
+      <p>Type Checks ❌</p>
+      <p>Compiles to JS ✅</p>
+      <p>Rust Based</p>
+      <p>Fast as heck</p>
+    </article>
+
+    <article>
+      <h1>esbuild</h1>
+      <p>Type Checks ❌</p>
+      <p>Compiles to JS ✅</p>
+      <p>Go Based</p>
+      <p>Fast as heck</p>
+    </article>
+
+    <article>
+      <h1>vite</h1>
+      <p>uses esbuild</p>
+      <p>Does everything</p>
+      <p>dev server, live reloader, bundler, css, frameworks..</p>
+    </article>
+
+    <article>
+      <h1>parcel</h1>
+      <p>uses swc</p>
+      <p>Does everything</p>
+      <p>dev server, live reloader, bundler, css, frameworks..</p>
+    </article>
+
+    <article>
+      <h1>What to use?</h1>
+      <p>For most projects, use vite or parcel</p>
+      <p>Tooling is SO GOOD right now</p>
+    </article>
+
+    <article>
+      <h1>serverside</h1>
+    </article>
+
+    <article>
+      <h1>Node</h1>
+      <p><span class="hl">tsx</span> uses esbuild</p>
+      <p><span class="hl">ts-node</span> uses tsc. Also has a --swc</p>
+    </article>
+
+    <article>
+      <img src="/typescript-talk/assets/deno.0e4d5799.png" alt="" class="wide">
+    </article>
+
+    <article>
+      <img src="/typescript-talk/assets/bun.d1dda5be.png" alt="" class="wide">
+    </article>
+
+    <article>
+      <h1>Do we even need <span class="hl">TypeScript</span>?</h1>
+
+    </article>
+
+    <article>
+      <h2>JSDoc</h2>
+      <img src="/typescript-talk/assets/jsdoc.f25c4f50.png" alt="" class="wide">
+    </article>
+    <article>
+      <img src="/typescript-talk/assets/jsdoc2.25539675.png" alt="" class="wide">
+    </article>
+
+    <article>
+      <img src="/typescript-talk/assets/types-as-comments.a8f4b10a.png" alt="" class="wide">
+    </article>
+
+    <article>
+      <h1>Neat, <span class="hl">eh</span>?</h1>
+      <p>Thanks</p>
+    </article>
+
+
+  </section>
+</body>
+
+</html>
